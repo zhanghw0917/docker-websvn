@@ -47,7 +47,7 @@ fi
 
 chmod -R 777 /home/svn
 
-/usr/sbin/httpd restart
+/usr/sbin/httpd -k start
 
 #tail -f /dev/null
 
