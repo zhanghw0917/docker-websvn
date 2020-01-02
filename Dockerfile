@@ -52,7 +52,3 @@ EXPOSE 80 443 3690
 VOLUME ["/home/svn", "/etc/subversion", "/opt/svnadmin/data"]
 
 CMD ["/opt/run.sh"]
-
-# Add SVNAuth file
-ADD subversion-access-control /etc/subversion/subversion-access-control
-RUN chmod a+w /etc/subversion/* && chmod a+w /home/svn
