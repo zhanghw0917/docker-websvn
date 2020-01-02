@@ -21,7 +21,7 @@ services:
 
   websvn:
     container_name: 'websvn'
-    image: 'brotherdavid/docker-websvn:0.0.1'
+    image: 'brotherdavid/websvn:0.0.1'
     restart: 'always'
     privileged: true
     hostname: 'localhost'
