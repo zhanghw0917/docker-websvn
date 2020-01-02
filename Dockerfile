@@ -41,6 +41,7 @@ ADD initfile /opt/initfile
 
 # Add runtime file
 ADD run.sh /opt/run.sh
+RUN chmod +x /opt/run.sh
 
 # Set HOME in non /root folder
 ENV HOME /home
