@@ -47,10 +47,7 @@ fi
 
 chmod -R 777 /home/svn
 
-/usr/sbin/apachectl restart
-
-#/usr/sbin/apachectl -DFOREGROUND
-#/usr/bin/svnserve -d --foreground -r /home/svn --listen-port 3690
+/usr/sbin/httpd restart
 
 tail -f /dev/null
 
