@@ -1,5 +1,5 @@
 #!/bin/sh
-/usr/sbin/init
+#/usr/sbin/init
 chown -R apache:apache /opt/svnadmin/data
 chmod -R 777 /opt/svnadmin/data
 
@@ -49,5 +49,5 @@ chmod -R 777 /home/svn
 
 /usr/sbin/httpd restart
 
-tail -f /dev/null
+#tail -f /dev/null
 
