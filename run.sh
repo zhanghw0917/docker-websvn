@@ -47,7 +47,8 @@ fi
 
 chmod -R 777 /home/svn
 
-/usr/sbin/httpd -k start
+# /usr/sbin/httpd -k start
+/usr/sbin/apachectl  restart ;
 
-#tail -f /dev/null
+# tail -f /dev/null
 

@@ -3,3 +3,5 @@
 # From https://github.com/smebberson/docker-alpine/tree/master/alpine-apache
 
 # exec /usr/sbin/httpd start -DFOREGROUND;
+
+ exec /usr/sbin/apachectl -DFOREGROUND;
