@@ -38,10 +38,10 @@ if [ ! -x "$dirpath" ]; then
   chown -R apache:apache /home/svn
 fi
 
-#/usr/sbin/apachectl restart
+/usr/sbin/apachectl restart
 
-/usr/sbin/apachectl -DFOREGROUND
-/usr/bin/svnserve -d --foreground -r /home/svn --listen-port 3690
+#/usr/sbin/apachectl -DFOREGROUND
+#/usr/bin/svnserve -d --foreground -r /home/svn --listen-port 3690
 
 tail -f /dev/null
 
